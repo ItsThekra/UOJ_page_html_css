@@ -1,0 +1,84 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    font-size: medium;
+}
+
+.header
+{
+    background-image:  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo
+{
+    height: 90px;
+    /* padding: 0% 10px; */
+
+}
+span
+{
+    color: rgb(18, 255, 1);
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+    align-items: center;
+}
+
+ul il a{
+    text-decoration: none;
+    padding: 12px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+ul il a:hover
+{
+  color: rgb(19, 91, 215);
+  transition: 0.s;
+}
+
+.text
+{
+        color: aliceblue;
+        text-align: center;
+        margin-top: 133px;
+        
+}
+
+.text h1
+{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.text p 
+{
+    letter-spacing: 0.5px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 100px;
+}
+.btn
+{
+    top: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    border: solid 1px;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.btn:hover
+{
+    background-color:rgb(19, 91, 215);
+    border-color: rgb(19, 91, 215);
+}
+
+
